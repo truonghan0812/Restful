@@ -20,4 +20,10 @@ public class PartServiceImpl implements PartService{
 	public List<Part> findAll(){
 		return dao.findAll();
 	}
+
+	@Override
+	public List<Part> findByBrand(String brand) {
+		
+		return dao.findByBrand(brand);
+	}
 }

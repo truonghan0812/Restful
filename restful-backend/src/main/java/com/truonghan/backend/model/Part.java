@@ -14,6 +14,8 @@ public class Part {
 	private String name;
 	
 	private String comment;
+	
+	private String brand;
 
 	public int getId() {
 		return id;
@@ -37,6 +39,14 @@ public class Part {
 
 	public void setComment(String comment) {
 		this.comment = comment;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
 	}
 	
 	

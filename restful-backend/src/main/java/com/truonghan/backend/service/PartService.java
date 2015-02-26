@@ -6,4 +6,5 @@ import com.truonghan.backend.model.Part;
 
 public interface PartService {
 	public List<Part> findAll();
+	List<Part> findByBrand(String brand);
 }

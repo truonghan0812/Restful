@@ -29,7 +29,7 @@ public class DaoTest {
 	
 	@Test
 	public void test() {
-		List<Part> parts = service.findAll();
+		List<Part> parts = service.findByBrand("test");
 		assertTrue(parts.size()>0);;
 	}
 
